@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div id="start-screen">
+  <h2>Bem-vindo ao Quiz do Rock!</h2>
+  <label for="username">Digite seu nome:</label>
+  <input type="text" id="username" placeholder="Seu nome" />
+  <button id="start-btn">Começar</button>
+</div>
+    <div class="app" id="quiz-container">
+        <h1 class="title"> &#127928;Quiz Interativo&#127928;</h1>
+        <div class="quiz">
+            <h2 id="question"> Questão aqui</h2>
+            <div id="answer-buttons">
+                <button class="button">Resposta 1</button>
+                <button class="button">Resposta 2</button>
+                <button class="button">Resposta 3</button>
+                <button class="button">Resposta 4</button>
+                <button class="button">Resposta 5</button>
+            </div>
+            <button id="next-btn">next</button>
+        </div>
+        <div id="timer">Tempo: <span id="time">7 </span> segundos</div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
